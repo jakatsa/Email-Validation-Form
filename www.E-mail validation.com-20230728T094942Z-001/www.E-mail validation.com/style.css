@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,body {
+     display: grid;
+     height: 100%;
+     width: 100%;
+     place-items: center;
+     background-color: #11131e;
+    
+  }
+  ::selection{
+    background-color: #4158d0;
+    color: #11131e;
+  }
+  .wrapper{
+    width: 380px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  }
+  .wrapper .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg,#c850c0,#4158d0); 
+  }
+  .btn{
+    background: linear-gradient(-135deg,#c850c0,#4158d0); 
+    color: #fff;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+ .wrapper form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 30px 50px 30px;
+  }
+  .wrapper form .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .wrapper form .field form{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: 1px solid lightgrey;
+    transition: all 0.3s ease;
+    
+  }
+  
+ .wrapper form .field input:focus,form .field input:valid{
+border-color:#4158d0 ;
+ }
+ input[type="text"],
+ input[type="email"],
+ input[type="number"],
+ input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: none;
+   border-radius: 4px;
+ }
+ 
+ input[type="text"]:focus,
+ input[type="email"]:focus,
+ input[type="number"]:focus,
+ input[type="password"]:focus {
+   outline: none;
+ }
+  button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button[type="reset"] {
+    background-color: #666;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
